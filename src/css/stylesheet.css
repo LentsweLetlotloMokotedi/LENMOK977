@@ -1,0 +1,24 @@
+button{
+    background-color: aqua;
+    border-radius: 30%;
+    height: 40px;
+    animation-name: divcolor;
+    animation-duration: 10s;
+
+}
+
+@keyframes divcolor{
+    0%{background-color: aqua;
+        transform: rotateX(120deg);}
+    50%{background-color: mediumorchid;
+    border-radius: 100%;}
+    100%{background-color: maroon;
+         transform: translateX(20px);
+         }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
