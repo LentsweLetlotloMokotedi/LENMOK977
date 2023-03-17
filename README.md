@@ -1,6 +1,5 @@
 # LENMOK977
-<<<<<<< HEAD
-=======
-https://www.figma.com/file/mGrBg4dnRopwoFJBOcivkV/Untitled?node-id=1-2&t=DccB9TudRnx2bCcV-0
-I used css and html tools
->>>>>>> 76bfbc0cd8505892b4860af8de52b7545486ca59
+ITW-9_FINALE DIGITAL RESUME
+https://www.figma.com/file/mGrBg4dnRopwoFJBOcivkV/Untitled?node-id=1-2&t=0etuNp6FfuVNwBry-0
+Technologies i used are CSS and HTML
+A brief description of the project: The project is actually a digital Resume which i built with Css and  HTML and it is responsive and consist some external links.
