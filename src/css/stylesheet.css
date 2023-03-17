@@ -7,13 +7,24 @@ button{
     animation-duration: 10s;
 
 }
+
+
+/* for responsiveness of my word menu*/
+.menua{
+    background-color: #333030;
+    border-radius: 10%;
+    animation-name: divcolor;
+    animation-duration: 6s;
+    width: fit-content;
+    height: fit-content;
+}
 /*for stylinng of my animation*/
 @keyframes divcolor{
-    0%{background-color: aqua;
+    0%{
         transform: rotateX(120deg);}
-    50%{background-color: mediumorchid;
+    50%{
     border-radius: 100%;}
-    100%{background-color: maroon;
+    100%{
          transform: translateX(20px);
          }
 }
@@ -23,6 +34,7 @@ button{
     flex-direction: column;
     border-style: double;
     border-color: rgb(72, 5, 5);
+    
     
 }
 /*for my CSS Grid*/
@@ -79,7 +91,7 @@ button{
     color: #ffffff;
     padding: 1rem;
 }
-/*to position my content*/
+/*to position my grid items*/
 .parent2{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -105,11 +117,22 @@ form{
     header{
         text-align: center;
     }
+
+    .container{
+        
+        animation-name: divcolor;
+        animation-duration: 5s;
+    }
  }    
 
 
  /* Small devices (portrait tablets and large phones, 650px and up) */
  @media (min-width: 650px) {
+    .container{
+        
+        animation-name: divcolor;
+        animation-duration: 5s;
+    }
     body { background-image: url(../Images/body.jpg);
     font-family: monospace;
     font-size: large; }
@@ -146,5 +169,10 @@ header{
     text-align: center;
     
     
+}
+.container{
+        
+    animation-name: divcolor;
+    animation-duration: 5s;
 }
 
